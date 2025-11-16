@@ -76,11 +76,20 @@ To run this project locally, you need Android Studio installed.
 4.  **Build and Run:** Select a physical device or emulator and click the 'Run' button.
 
 ---
+## 👥 Team & Contributions
 
-👥 Team Roles and ContributionsThis project was a collaborative effort in the initial design phase, followed by focused individual development:RoleContributorCore ResponsibilityUI/UX Design Lead[Insert Designer 1 Name]Conceptualizing the primary design language, color scheme, and flow (Wireframing & Mockups).Design Contributor[Insert Designer 2 Name]Developing and refining specific screen mockups (e.g., Login/Checkout) and asset preparation.Lead Developer & Architect[Insert Your Name]Full-stack implementation (Frontend & Backend), Database Design (ERD), MVVM Architecture, Firebase Integration, and Final Presentation.
+| Role | Contributor | Contribution Summary |
+| :--- | :--- | :--- |
+| **Design (UI/UX)** | **[Shahd Ahmed]** | Led the initial design concept, wireframing, and primary UI structure. |
+| **Design (UI/UX)** | **[Yara Emaad]** | Supported design refinement and developed specific screen mockups. |
+| **Lead Developer & Architect** | **[Abdelrahman Zaher]** | Full implementation of the codebase (Kotlin, MVVM), Firebase integration, Database Schema (ERD) development, and project deployment. |
+
+---
 
 ## ✉️ Contact Information
 
-Developed by: Abdelrahman Zaher Bedier
-www.linkedin.com/in/abdelrahmanzaher1
-abdelrahmanzaher143@gmail.com
+Lead Developer: **[Abdelrahman Zaher]**
+
+[www.linkedin.com/in/abdelrahmanzaher1]
+
+[abdelrahmanzaher143@gmail.com]
