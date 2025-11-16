@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MA Shop</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="intro_title">Step Into Your <font color="#6033ba"> Style\n A World of shoes</font></string>
+    <string name="intro_text">Brawse the latest style from top brands\nGet presonalized recommendations\nEnjoy fast, free shipping</string>
+    <string name="into_signin">Already have an Account?<font color="#6033ba"> Sign In</font>></string>
+</resources>
