@@ -77,12 +77,10 @@ To run this project locally, you need Android Studio installed.
 
 ---
 
+👥 Team Roles and ContributionsThis project was a collaborative effort in the initial design phase, followed by focused individual development:RoleContributorCore ResponsibilityUI/UX Design Lead[Insert Designer 1 Name]Conceptualizing the primary design language, color scheme, and flow (Wireframing & Mockups).Design Contributor[Insert Designer 2 Name]Developing and refining specific screen mockups (e.g., Login/Checkout) and asset preparation.Lead Developer & Architect[Insert Your Name]Full-stack implementation (Frontend & Backend), Database Design (ERD), MVVM Architecture, Firebase Integration, and Final Presentation.
+
 ## ✉️ Contact Information
 
-Developed by: **[Your Full Name]**
-
-Academic ID: **[Your University ID/Student Number]**
-
-[LinkedIn Profile Link]
-
-[Personal Email Address]
+Developed by: Abdelrahman Zaher Bedier
+www.linkedin.com/in/abdelrahmanzaher1
+abdelrahmanzaher143@gmail.com
