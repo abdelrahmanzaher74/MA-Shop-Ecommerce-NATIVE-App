@@ -36,5 +36,16 @@ class PopularAdapter(val items:MutableList<ItemsModel>): RecyclerView.Adapter<Po
             holder.itemView.context.startActivity(intent)
         }
     }
+
     override fun getItemCount(): Int = items.size
+
+    fun updateList(newItems: List<ItemsModel>) {
+        // 1. مسح القائمة القديمة
+        items.clear()
+        // 2. إضافة النتائج الجديدة
+        items.addAll(newItems)
+        // 3. إبلاغ الـ RecyclerView بالتحديث
+        notifyDataSetChanged()
+    }
+
 }

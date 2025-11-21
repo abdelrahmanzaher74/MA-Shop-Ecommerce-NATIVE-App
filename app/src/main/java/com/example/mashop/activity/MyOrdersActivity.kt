@@ -1,5 +1,6 @@
 package com.example.mashop.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -24,7 +25,7 @@ class MyOrdersActivity : AppCompatActivity() {
 
     private fun setVariable() {
         // زر الرجوع
-        binding.backBtn.setOnClickListener { finish() }
+        binding.backBtn.setOnClickListener { startActivity(Intent(this, MainActivity::class.java)) }
     }
 
     private fun setupOrdersRecyclerView() {

@@ -34,6 +34,8 @@ class MainActivity : AppCompatActivity() {
         initButtonmenu()
         loadUserName()
 
+        binding.search.setOnClickListener { startActivity(Intent(this, SearchActivity::class.java)) }
+
 
 
     binding.profileBtn.setOnClickListener {

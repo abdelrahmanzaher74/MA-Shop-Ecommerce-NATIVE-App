@@ -15,6 +15,8 @@
         android:theme="@style/Theme.MAShop">
         <activity android:name=".activity.ProfileActivity" android:exported="false" />
         <activity android:name=".activity.MyOrdersActivity" android:exported="false" />
+        <activity android:name=".activity.SearchActivity" android:exported="false" />
+
         <activity android:name=".activity.OrderDetailActivity" android:exported="false" />
         <activity android:name=".activity.OrderSuccessActivity" android:exported="false" />
         <activity android:name=".activity.CartActivity" android:exported="false" />

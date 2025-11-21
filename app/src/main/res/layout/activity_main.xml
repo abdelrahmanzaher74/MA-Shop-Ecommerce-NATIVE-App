@@ -66,6 +66,8 @@
                 >
 
                 <EditText
+                    android:id="@+id/search"
+                    android:focusable="false"
                     android:drawablePadding="10dp"
                     android:drawableStart="@drawable/baseline_search_24"
                     android:layout_width="match_parent"
@@ -178,7 +180,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="0dp" />
+                    tools:layout_editor_absoluteY="0dp"
+                    android:paddingBottom="80dp"/>
 
                 <ProgressBar
                     android:id="@+id/progressBarPopular"
@@ -207,7 +210,8 @@
             android:background="@drawable/blue_bg">
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:id="@+id/navBar">
 
 
                 <ImageView

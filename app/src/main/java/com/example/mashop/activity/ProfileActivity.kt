@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mashop.LoginActivity
 import com.example.mashop.databinding.ActivityProfileBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -30,7 +31,8 @@ class ProfileActivity : AppCompatActivity() {
         binding.backBtn.setOnClickListener { finish() }
 
         binding.btnLogout.setOnClickListener {
-            // ... (منطق تسجيل الخروج)
+            startActivity(Intent(this, LoginActivity::class.java))
+            finish()
         }
     }
     // ... (باقي الدوال)

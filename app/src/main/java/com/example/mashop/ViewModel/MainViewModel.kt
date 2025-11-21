@@ -19,6 +19,9 @@ class MainViewModel():ViewModel() {
     val brands: LiveData<MutableList<BrandModel>> = _brand
     val popular: LiveData<MutableList<ItemsModel>> = _popular
     val banners: LiveData<List<SliderModel>> = _banner
+    private var bannersListener: ValueEventListener? = null
+    private var brandsListener: ValueEventListener? = null
+    private var popularListener: ValueEventListener? = null
     fun loadBanners(){
         val Ref = firebaseDatabase.getReference("Banner")
         Ref.addValueEventListener(object : ValueEventListener{
@@ -71,5 +74,21 @@ class MainViewModel():ViewModel() {
             }
         })
     }
+    // في نهاية كلاس MainViewModel.kt
+
+    override fun onCleared() {
+        super.onCleared()
+
+        // 1. إزالة المستمعين من Firebase Realtime Database
+        firebaseDatabase.getReference("Banner").removeEventListener(bannersListener!!)
+        firebaseDatabase.getReference("Category").removeEventListener(brandsListener!!)
+        firebaseDatabase.getReference("Items").removeEventListener(popularListener!!)
+
+        // 2. تعيين المتغيرات إلى null (اختياري لكن مفضل)
+        bannersListener = null
+        brandsListener = null
+        popularListener = null
+    }
+
 }
 
